@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Interpreter">
+      <UniqueIdentifier>{40bd131e-5c6c-463d-b4fd-f95a4fc266d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utilities">
+      <UniqueIdentifier>{ef6aa1a8-d92c-4531-aedc-118a3ba6388e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BufferManager">
+      <UniqueIdentifier>{ee1bc147-1791-4ccd-be00-88492e0730c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BufferManager\Header">
+      <UniqueIdentifier>{87899c18-ad68-41f1-8258-0b35c57e686d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BufferManager\File">
+      <UniqueIdentifier>{72be3ba5-36fe-4d2b-b989-0d2ed9ac6430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Interpreter">
+      <UniqueIdentifier>{0ef2a12a-5559-4754-8725-3ad101e36707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BufferManager">
+      <UniqueIdentifier>{a40526e6-d8e1-4bcb-b023-672798c8d778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utilities">
+      <UniqueIdentifier>{cba3067c-0f54-4f81-b519-6d9385be64f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BufferManager\File">
+      <UniqueIdentifier>{e3d24368-58b8-4603-b78e-6b19e99cb5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BufferManager\Header">
+      <UniqueIdentifier>{0c25f9df-1522-4706-8a58-e508023c299a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RecordManager">
+      <UniqueIdentifier>{f6b69110-d9c1-48c9-8738-fc5bf885d000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\RecordManager">
+      <UniqueIdentifier>{bf9b39a0-cfa2-4182-bf0f-eebbb49e6db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CatalogManager">
+      <UniqueIdentifier>{5da4d5d0-e357-44ec-9f84-2e8d1e524ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\IndexManager">
+      <UniqueIdentifier>{f536c708-828a-4e90-a5c1-70adb7d64f09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interpreter.h">
+      <Filter>头文件\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="MyException.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferBlock.h">
+      <Filter>头文件\BufferManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferManager.h">
+      <Filter>头文件\BufferManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>头文件\BufferManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHeader.h">
+      <Filter>头文件\BufferManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexHeader.h">
+      <Filter>头文件\BufferManager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexFile.h">
+      <Filter>头文件\BufferManager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFile.h">
+      <Filter>头文件\BufferManager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexOrDataFile.h">
+      <Filter>头文件\BufferManager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordPointer.h">
+      <Filter>头文件\BufferManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultSet.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Clause.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeConstraint.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordManager.h">
+      <Filter>头文件\RecordManager</Filter>
+    </ClInclude>
+    <ClInclude Include="catalog.h">
+      <Filter>头文件\CatalogManager</Filter>
+    </ClInclude>
+    <ClInclude Include="com.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexManager.h">
+      <Filter>头文件\IndexManager</Filter>
+    </ClInclude>
+    <ClInclude Include="API.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="index.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpreter.cpp">
+      <Filter>源文件\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferBlock.cpp">
+      <Filter>源文件\BufferManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferManager.cpp">
+      <Filter>源文件\BufferManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeConstraint.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Clause.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFile.cpp">
+      <Filter>源文件\BufferManager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexFile.cpp">
+      <Filter>源文件\BufferManager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHeader.cpp">
+      <Filter>源文件\BufferManager\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexHeader.cpp">
+      <Filter>源文件\BufferManager\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexOrDataFile.cpp">
+      <Filter>源文件\BufferManager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="MyException.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultSet.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordPointer.cpp">
+      <Filter>源文件\BufferManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Header.cpp">
+      <Filter>源文件\BufferManager\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordManager.cpp">
+      <Filter>源文件\RecordManager</Filter>
+    </ClCompile>
+    <ClCompile Include="API.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="catalog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="com.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="index.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

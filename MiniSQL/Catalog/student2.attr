@@ -1,0 +1,3 @@
+id INT PRIME UNIQUE 
+name CHAR16 UNIQUE 
+score FLOAT 

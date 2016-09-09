@@ -1,0 +1,4 @@
+sno CHAR8 PRIME UNIQUE 
+sname CHAR16 UNIQUE 
+sage INT 
+sgender CHAR1 
